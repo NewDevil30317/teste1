@@ -22,5 +22,16 @@
     <p style="text-align: center; font-weight: bold;">© 2022 – Todos os direitos reservados. Este site não faz parte nem é endossado pelo Facebook. Facebook é uma marca comercial da Facebook, Inc.</p>
   </div>
   <script type="text/javascript" src="script.js"></script>
+  
+  <title>Exemplo de back redirect em HTML</title>
+	<script>
+		window.onbeforeunload = function() {
+			return "Tem certeza de que deseja sair?";
+		}
+	</script>
+</head>
+<body>
+	<h1>Exemplo de back redirect em HTML</h1>
+	<p>Este é um exemplo simples de como usar um back redirect para evitar que os visitantes deixem uma página sem uma mensagem de aviso.</p>
 </body>
 </html>
